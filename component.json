@@ -1,0 +1,13 @@
+{
+  "name": "button",
+  "repo": "bottom/button",
+  "description": "Base button",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "css/button.css"
+  ]
+}

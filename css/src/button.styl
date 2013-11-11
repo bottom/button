@@ -1,0 +1,30 @@
+$color_default = #bdc3c7
+$color_hover = #cacfd2
+$color_active = #a1a6a9
+
+button,
+.button
+  appearance none
+  cursor pointer
+  text-align center
+  font-weight bold
+  font-smoothing antialiased
+  display inline-block
+  line-height 20px
+  margin 0
+  padding 0 10px
+  border 0
+  border-radius 0
+  color white
+  background-color $color_default
+  outline none
+  font-weight 500
+
+  &:hover
+    background-color $color_hover
+
+  &:active
+    background-color $color_active
+
+  &.disabled
+    cursor default

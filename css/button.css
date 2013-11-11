@@ -1,0 +1,30 @@
+button,
+.button {
+  appearance: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-smoothing: antialiased;
+  display: inline-block;
+  line-height: 20px;
+  margin: 0;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  background-color: #bdc3c7;
+  outline: none;
+  font-weight: 500;
+}
+button:hover,
+.button:hover {
+  background-color: #cacfd2;
+}
+button:active,
+.button:active {
+  background-color: #a1a6a9;
+}
+button.disabled,
+.button.disabled {
+  cursor: default;
+}
